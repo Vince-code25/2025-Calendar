@@ -1,0 +1,66 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    height: 80px;
+    vertical-align: middle;
+    position: relative;
+    padding: 10px;
+}
+
+.today {
+    background-color: #e3f2fd;
+    font-weight: bold;
+    border: 2px solid #0d6efd !important;
+}
+
+.other-month {
+    color: #ccc;
+}
+
+.card-header h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-outline-light:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.holiday {
+    background-color: #ffebee;
+}
+
+.holiday-name {
+    font-size: 0.7rem;
+    color: #dc3545;
+    display: block;
+    margin-top: 2px;
+}
+
+.event {
+    background-color: #e8f5e9;
+}
+
+.event-name {
+    font-size: 0.7rem;
+    color: #2e7d32;
+    display: block;
+    margin-top: 2px;
+}
